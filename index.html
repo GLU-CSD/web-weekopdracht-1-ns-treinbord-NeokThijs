@@ -7,22 +7,51 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="container">
-        
-        <div id="left">
-            <!-- hier komt de klok -->
-        </div>
-        <div id="middle">
-            <!-- Hier komt de reizigers info -->
-        </div>
-        <div id="right">
+    <body>
+        <div id="container">
+          <div id="left">
+            <div id="klok-container">
+              <div id="klok">
+                <div class="wijzer uur"></div>
+                <div class="wijzer minuut"></div>
+                <div class="wijzer seconden"></div>
+              </div>
+            </div>
+          </div>
+     
+          <div id="middle">
+            <div id="witRechthoek">
+              <div class="inner-content">
+                <div class="top-header">
+                  <!-- Eerste kolom -->
+                  <div class="kolom-1">
+                    <div class="tijd">1 minuut</div>
+                  </div>
+                  <!-- Tweede kolom -->
+                  <div class="kolom-2">
+                    <div class="trein-type">Intercity</div>
+                    <img src="assets/img/ns_logo.png" class="ns" alt="NS Logo" />
+                  </div>
+                </div>
+     
+                <div class="bestemming">Heerlen</div>
+                <div class="station-route">via 's Hertogenbosch, Eindhoven, Weert, Roermond en Sittard</div>
+                <div class="image-container"></div>
+              </div>
+              
+              <div class="blauwRechthoek">
+                <div class="hierna">Hierna/next: 08:54 IC Venlo</div> 
+              </div>
+            </div>
+          </div>
+     
+          <div id="right">
             <div class="witVierkantRechts">
-                <div class="blauwVierkantRechts">
-                    <div class="spoor">spoor</div>
-                </div> 
-                <div class="nummer18">18</div>
-                <div class="B">B</div>
-        </div> 
-    </div>
-</body>
-</html>
+              <div class="blauwVierkantRechts"></div>
+              <div class="nummer18">18</div>
+              <div class="spoor">spoor</div>
+              <div class="letterB">b</div>
+            </div>
+          </div>
+        </div>
+      </body>
